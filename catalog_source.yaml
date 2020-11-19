@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: CatalogSource
+metadata:
+  name: ibm-cpat-catalog
+spec:
+  sourceType: grpc
+  image: quay.io/gregmeszaros/cpat-ibm-guardian-operator-index:latest
+  displayName: IBM CPAT Operator Catalog
+  publisher: IBM CPAT platform team
