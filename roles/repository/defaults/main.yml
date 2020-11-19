@@ -1,0 +1,5 @@
+---
+# defaults file for repository
+state: present
+git_ref: "master"
+git_url: "https://github.com/gregmeszaros/cpat-ibm-guardian-example.git"

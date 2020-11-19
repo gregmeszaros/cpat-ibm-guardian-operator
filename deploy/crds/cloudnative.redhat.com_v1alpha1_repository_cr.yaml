@@ -1,0 +1,7 @@
+apiVersion: cloudnative.redhat.com/v1alpha1
+kind: Repository
+metadata:
+  name: cpat-ibm-guardian-example
+spec:
+  gitRef: "master"
+  gitUrl: "https://github.com/gregmeszaros/cpat-ibm-guardian-example.git"
