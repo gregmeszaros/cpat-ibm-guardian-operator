@@ -1,4 +1,6 @@
-# cpat-ibm-guardian-operator
+# CPAT IBM guardian operator
+
+<b>This operator allows you to track configmap creation, updates from a remote git repository.</b>
 
 To quickly test this operator you can add the custom catalog source from this repository:
 
